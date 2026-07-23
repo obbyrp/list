@@ -1,5 +1,5 @@
 fetch("list.json")
-  .then(response => response.json)
+  .then(response => response.json())
   .then(thing => {
     thing.sort((a, b) => b.diff - a.diff); //yeah epic sorting :D
 
