@@ -14,6 +14,7 @@ fetch("list.json")
           <p>${item.diff}</p>
           <p>Verified by ${item.verify}</p>
           <p>Creator: ${item.creator}</p>
+          <p>Duration: ${item.duration}</p>
           <p>"${item.desc}"</p>
         </div>`;
     });
