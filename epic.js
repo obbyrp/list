@@ -1,4 +1,4 @@
-console.log("test")
+alert("hello");
 fetch("list.json")
   .then(response => response.json())
   .then(thing => {
