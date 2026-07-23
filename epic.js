@@ -1,3 +1,4 @@
+console.log("test")
 fetch("list.json")
   .then(response => response.json())
   .then(thing => {
